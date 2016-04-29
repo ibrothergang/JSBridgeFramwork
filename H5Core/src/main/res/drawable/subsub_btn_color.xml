@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Non focused states -->
+
+    <item android:color="@color/subBtnEnableFalse" android:state_enabled="false"/>
+    <!-- Pressed -->
+
+    <item android:color="@color/mainTextColor"/>
+
+</selector>

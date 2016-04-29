@@ -1,0 +1,59 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+    </style>
+
+    <style name="h5_transparent">
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="wb_progress">
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/wv_progress</item>
+        <item name="android:secondaryProgress">0</item>
+    </style>
+
+    <style name="h5_loading_style" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+    <style name="subSubButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/subsub_btn_color</item>
+        <item name="android:background">@drawable/sub_button_sub</item>
+    </style>
+
+    <!-- 深色背景次次按钮 -->
+    <style name="subSubButtonDarkbgStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@drawable/subsub_btn_color</item>
+        <item name="android:background">@drawable/sub_button_sub_darkbg</item>
+    </style>
+
+    <!-- 底部对话框按钮 -->
+    <style name="dialogButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#cccccc</item>
+        <item name="android:background">@drawable/dialog_button_bg</item>
+    </style>
+</resources>

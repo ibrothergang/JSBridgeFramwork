@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/H5Api/H5Api.iml" filepath="$PROJECT_DIR$/H5Api/H5Api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H5Application/H5Application.iml" filepath="$PROJECT_DIR$/H5Application/H5Application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H5ContainerTest.iml" filepath="$PROJECT_DIR$/H5ContainerTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/H5Core/H5Core.iml" filepath="$PROJECT_DIR$/H5Core/H5Core.iml" />
+    </modules>
+  </component>
+</project>

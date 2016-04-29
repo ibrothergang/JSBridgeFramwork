@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="backgroudColor">#efeff4</color>
+    <color name="colorBlack">#000000</color>
+    <color name="mainTextColor">#333333</color>
+    <color name="colorGray">#666666</color>
+    <color name="colorccc">#cccccc</color>
+    <color name="colorLightGray">#8F8F95</color>
+    <color name="textColorGray">#505050</color>
+    <color name="textColorYellow">#ff7700</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorOrange">#ff7700</color>
+    <color name="colorGreen">#449900</color>
+    <color name="colorBlue">#2277bb</color>
+    <color name="colorDarkBlue">#385487</color>
+    <color name="color_gray_369">#336699</color>
+    <color name="list_select_color">#dfdfdf</color>
+    <color name="list_select_color2">#dddddd</color>
+    <color name="colorLightBlue">#33b5e5</color>
+    <color name="tabsColorLightBlue">#77b2e4</color>
+    <color name="colorEnableFalse">#aaaaaa</color>
+    <color name="traveUserGuideBgColor">#2D2D2D</color>
+    <color name="list_select_color915">#f1f5f6</color>
+    <color name="colorViolet">#5c6593</color>
+    <color name="colorDeepViolet">#464662</color>
+    <color name="linkcolor">#2861d7</color>
+    <color name="brightBlue">#cbf1fe</color>
+    <color name="protocol_link_color">#004986</color>
+    <color name="app_titlebar_bg_color">#1e232b</color>
+    <color name="loginColorEnableFalse">#70a4ef</color>
+    <color name="searchTextColor">#00aaff</color>
+    <color name="blueColor">#00aaff</color>
+    <color name="alpha30BlueColor">#4c00aaff</color>
+    <color name="subBtnEnableFalse">#dadada</color>
+    <color name="colorRed">#ff0000</color>
+    <!-- contact list -->
+    <color name="list_line_color">#e4e6e6</color>
+    <color name="text_light_gray">#8F8F95</color>
+    <color name="text_light_blue">#586b95</color>
+    <color name="notify_text_enabled">#FF999999</color>
+    <color name="notify_text_disabled">#FFFF0000</color>
+    <color name="C_white">#FFFFFFFF</color>
+    <color name="alpha40white">#66FFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="indicator_stroke">#666666</color>
+    <color name="blue_button_text_color">#8bbef2</color>
+    <color name="switch_tab_text_color_click">#00aaff</color>
+    <color name="switch_tab_text_color_default">#8c8c8c</color>
+    <color name="switch_tab_line_color">#00aaff</color>
+    <color name="switch_tab_background_color_defualt">#ffffff</color>
+    <color name="switch_tab_background_color_click">#ededed</color>
+    <color name="switch_tab_buttom_line_color">#d9d9d9</color>
+
+    <color name="amount_input_grid_bg">#FFFFFFFF</color>
+    <color name="amount_input_grid_border">#FFC6C6C6</color>
+    <color name="amount_input_cursor">#ff000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="popup_item_text">#FF666666</color>
+    <color name="grey">#FFDDDDDD</color>
+    <color name="light_grey">#60DDDDDD</color>
+    <color name="setting_translucent_bg">#e0000000</color>
+    <color name="h5_provider">#FF2E3132</color>
+    <color name="h5_nav_menu_pressed">#FF20273F</color>
+    <color name="h5_nav_menu_normal">#FF30374F</color>
+    <color name="h5_nav_menu_divider">#FF20273F</color>
+</resources>
