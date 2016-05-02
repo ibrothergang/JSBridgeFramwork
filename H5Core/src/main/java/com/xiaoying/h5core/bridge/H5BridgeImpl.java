@@ -162,8 +162,8 @@ public class H5BridgeImpl implements H5Bridge {
             H5Log.e(TAG, "exception", e);
         }
 
-//        String message = jo.toString();
-        String joMsg = jo.toString();
+        String message = jo.toString();
+        String joMsg = JSONObject.quote(message);
 
         String javascript = String.format(INVOKE_JS, joMsg);
         try {

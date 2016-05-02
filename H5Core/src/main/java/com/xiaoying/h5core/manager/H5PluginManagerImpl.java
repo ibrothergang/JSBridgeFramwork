@@ -48,7 +48,6 @@ public class H5PluginManagerImpl implements H5PluginManager {
             H5Log.e(TAG, "exception", e);
         }
 
-
         return false;
     }
 
