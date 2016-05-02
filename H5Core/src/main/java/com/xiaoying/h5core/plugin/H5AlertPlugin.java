@@ -77,9 +77,9 @@ public class H5AlertPlugin implements H5Plugin {
             return;
         }
 
-        String title = params.getString("title");
-        String message = params.getString("message");
-        String button = params.getString("button");
+        String title = H5Utils.getString(params,"title");
+        String message = H5Utils.getString(params,"message");
+        String button = H5Utils.getString(params,"button");
 
         if (TextUtils.isEmpty(button)) {
             button = H5Environment.getResources().getString(
@@ -124,12 +124,12 @@ public class H5AlertPlugin implements H5Plugin {
         String title = params.getString("title");
         String message = params.getString("message");
 
-        String confirm = params.getString("okButton");
+        String confirm = H5Utils.getString(params,"okButton");
         Resources resources = H5Environment.getResources();
         if (TextUtils.isEmpty(confirm)) {
             confirm = resources.getString(R.string.default_confirm);
         }
-        String cancel = params.getString("cancelButton");
+        String cancel = H5Utils.getString(params,"cancelButton");
         if (TextUtils.isEmpty(cancel)) {
             cancel = resources.getString(R.string.default_cancel);
         }

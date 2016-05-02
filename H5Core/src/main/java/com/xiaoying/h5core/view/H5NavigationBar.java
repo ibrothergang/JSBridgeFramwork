@@ -245,7 +245,7 @@ public class H5NavigationBar implements H5Plugin, TitleProvider {
 
     private void setPageTitle(JSONObject param) {
         try {
-            if (param.get(H5Container.KEY_TITLE) == null) {
+            if (TextUtils.isEmpty(param.optString(H5Container.KEY_TITLE)) || param.get(H5Container.KEY_TITLE) == null) {
                 H5Log.d(TAG, "case 1, page title ignored!");
                 return;
             }

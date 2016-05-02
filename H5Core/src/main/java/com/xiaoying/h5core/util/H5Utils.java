@@ -461,12 +461,9 @@ public class H5Utils {
             Resources resources = H5Environment.getResources();
             ips = resources.openRawResource(resId);
 
-            ByteBuffer buff = ByteBuffer.allocate(1024);
-            byte tmp[] = new byte[1024];
-            for (int index = ips.read(tmp); index != -1; index = ips.read(tmp)) {
-                buff.put(tmp, 0, index);
-            }
-            text = new String(buff.array());
+            byte buffer[]=new byte[ips.available()];
+            ips.read(buffer);
+            text = new String(buffer);
         } catch (Exception e) {
             H5Log.e(TAG, "read raw file exception.", e);
         } finally {
