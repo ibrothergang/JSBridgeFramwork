@@ -135,7 +135,7 @@ public class H5WebChromeClient implements APWebChromeClient {
         H5Log.d(TAG, "onReceivedTitle [title] " + title);
         if (h5Page != null) {
             // save console
-            view.loadUrl("javascript:{window.__alipayConsole__ = window.console}");
+            view.loadUrl("javascript:{window.__JSBridgeConsole__ = window.console}");
             // send intent
             JSONObject param = new JSONObject();
             try {

@@ -10,12 +10,6 @@ import com.xiaoying.h5core.util.H5Log;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * SmoothProgress show an elegant progress to user
- *
- * @author Dawson Dong shenxin.dsx@alibaba-inc.com
- */
-
 public class H5Progress extends ProgressBar {
     public static final String TAG = "SmoothProgress";
 

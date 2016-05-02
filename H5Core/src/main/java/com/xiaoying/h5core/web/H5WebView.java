@@ -178,7 +178,7 @@ public class H5WebView extends APWebView implements H5PullableView {
             PackageInfo packageInfo = getContext().getPackageManager()
                     .getPackageInfo(packageName, PackageManager.GET_ACTIVITIES);
             ua = ua + "  AliApp(AP/" + packageInfo.versionName
-                    + ") AlipayClient/" + packageInfo.versionName;
+                    + ") Client/" + packageInfo.versionName;
 
             settings.setUserAgentString(ua);
         } catch (NameNotFoundException e) {

@@ -6,11 +6,6 @@ import android.os.Message;
 import android.view.KeyEvent;
 import android.webkit.WebResourceResponse;
 
-/**
- * similar role of that WebViewClient plays in WebView
- *
- * @author xide.wf
- */
 public interface APWebViewClient {
     /**
      * Generic error

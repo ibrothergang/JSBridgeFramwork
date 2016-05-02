@@ -9,12 +9,6 @@ import java.io.InputStreamReader;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-/**
- * util to perform a ping operation
- *
- * @author xide.wf
- * @version $Id: PingUtil.java, v 0.1 2014年5月23日 下午1:55:33 xide.wf Exp $
- */
 public class PingUtil {
 
     private static final boolean DBG = true;

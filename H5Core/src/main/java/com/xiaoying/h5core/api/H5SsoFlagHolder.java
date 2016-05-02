@@ -1,10 +1,5 @@
 package com.xiaoying.h5core.api;
 
-/**
- * the SSO(single sign on) flag holder for H5
- *
- * @author xide.wf
- */
 public class H5SsoFlagHolder {
     public static final int DOMAIN_OTHER = -1;
     public static final int DOMAIN_TAOBAO = 0;

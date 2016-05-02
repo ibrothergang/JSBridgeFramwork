@@ -245,8 +245,7 @@ public class H5Activity extends Activity {
         KeyboardHelper = null;
         if (!TextUtils.isEmpty(transactionId)) {
             H5Log.d("remove transaction");
-//            TaskScheduleService executorService = AlipayApplication.getInstance().getMicroApplicationContext()
-//                    .findServiceByInterface(TaskScheduleService.class.getName());
+//
 //            if (executorService != null) {
 //                try {
 //                    executorService.removeTransaction(transactionId);

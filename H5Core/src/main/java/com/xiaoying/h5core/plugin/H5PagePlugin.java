@@ -91,7 +91,7 @@ public class H5PagePlugin implements H5Plugin {
             }
 
             ShareCallback callback = new ShareCallback(intent);
-            h5Page.getBridge().sendToWeb("JSPlugin_AlipayH5Share", null, callback);
+            h5Page.getBridge().sendToWeb("JSPlugin_H5Share", null, callback);
 
             return true;
         }

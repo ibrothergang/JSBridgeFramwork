@@ -18,9 +18,6 @@ import org.json.JSONObject;
 import java.util.Timer;
 import java.util.TimerTask;
 
-/**
- * @author xide.wf
- */
 public class H5NotifyPlugin implements H5Plugin {
 
     public static final String TAG = "H5NotifyPlugin";

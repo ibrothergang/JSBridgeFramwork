@@ -1,10 +1,5 @@
 package com.xiaoying.h5core.apwebview;
 
-/**
- * helper to manipulate the version integer(see {@link GlueWebView#getVersion})
- *
- * @author xide.wf
- */
 public class Version {
     private static final int STORE_OFFSET = 16;
 

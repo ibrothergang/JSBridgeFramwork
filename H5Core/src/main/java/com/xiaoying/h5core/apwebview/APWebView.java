@@ -18,11 +18,6 @@ import com.xiaoying.h5core.web.H5WebViewRenderPolicy;
 
 import java.util.Map;
 
-/**
- * new alipay webview
- *
- * @author xide.wf
- */
 public class APWebView extends FrameLayout implements APWebViewCtrl {
     protected GlueWebView webView;
     protected Bundle webViewCfg;

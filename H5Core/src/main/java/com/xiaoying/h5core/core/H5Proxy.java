@@ -4,11 +4,6 @@
 
 package com.xiaoying.h5core.core;
 
-/**
- * the implement of proxy server for H5 app
- *
- * @author xide.wf
- */
 public class H5Proxy {
     H5ProxyStateListener listener;
 

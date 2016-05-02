@@ -4,12 +4,6 @@ import android.net.http.SslCertificate;
 import android.net.http.SslError;
 import android.support.annotation.NonNull;
 
-/**
- * Created by weiyu on 2014/12/9.
- * <p/>
- * revision history:
- * 2014/12/23 add NullSslError to avoid null exception, by xide.wf
- */
 class AndroidSslError extends SslError {
     private SslError sslError;
 

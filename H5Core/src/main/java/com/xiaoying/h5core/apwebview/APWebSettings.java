@@ -2,11 +2,6 @@ package com.xiaoying.h5core.apwebview;
 
 import android.content.Context;
 
-/**
- * similar role of that WebSettings plays in WebView
- *
- * @author xide.wf
- */
 public interface APWebSettings {
     /**
      * Default cache usage mode. If the navigation type doesn't impose any

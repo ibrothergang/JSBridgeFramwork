@@ -1,10 +1,5 @@
 package com.xiaoying.h5core.apwebview;
 
-/**
- * similar role to HitTestResult in android sdk
- *
- * @author xide.wf
- */
 public interface APHitTestResult {
     /**
      * Default HitTestResult, where the target is unknown.

@@ -19,9 +19,6 @@ import com.xiaoying.h5core.util.H5Log;
 import com.xiaoying.h5core.util.H5Log.LogListener;
 import com.xiaoying.h5core.util.H5Utils;
 
-/**
- * @author xide.wf
- */
 public class H5DevConsole implements OnClickListener, LogListener {
     public static final String TAG = "H5DevConsole";
     PopupWindow popupWindow = null;

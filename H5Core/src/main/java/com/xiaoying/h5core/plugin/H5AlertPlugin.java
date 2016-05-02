@@ -18,11 +18,6 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * alert, confirm related dialog widgets
- *
- * @author xide.wf
- */
 public class H5AlertPlugin implements H5Plugin {
 
     public static final String TAG = "H5AlertPlugin";

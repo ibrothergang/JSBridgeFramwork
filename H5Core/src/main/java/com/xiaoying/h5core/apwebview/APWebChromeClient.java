@@ -8,11 +8,6 @@ import android.webkit.ConsoleMessage;
 import android.webkit.GeolocationPermissions;
 import android.webkit.ValueCallback;
 
-/**
- * similar role of that WebChromeClient plays in WebView
- *
- * @author xide.wf
- */
 public interface APWebChromeClient {
     public void onProgressChanged(APWebViewCtrl view, int newProgress);
 

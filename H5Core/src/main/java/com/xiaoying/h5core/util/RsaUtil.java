@@ -1,8 +1,4 @@
-/*
- * Copyright (C) 2010 The MobileSecurePay Project
- * All right reserved.
- * author: shiqun.shi@alipay.com
- */
+
 
 package com.xiaoying.h5core.util;
 
@@ -19,13 +15,6 @@ public class RsaUtil {
 
     private static final String ALGORITHM = "RSA";
 
-    /**
-     * @param algorithm
-     * @param ins
-     * @return
-     * @throws NoSuchAlgorithmException
-     * @throws AlipayException
-     */
     private static PublicKey getPublicKeyFromX509(String algorithm,
                                                   String bysKey) throws NoSuchAlgorithmException, Exception {
         byte[] decodedKey = Base64.decode(bysKey);

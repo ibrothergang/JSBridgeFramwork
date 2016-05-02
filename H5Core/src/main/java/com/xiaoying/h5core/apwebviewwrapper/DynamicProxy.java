@@ -5,14 +5,6 @@ import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Proxy;
 
-/**
- * Contains a utility method for adapting a given interface against a real implementation.
- * <p/>
- * This class is thead-safe.
- *
- * @author xide.wf
- * @version 1.0 import from AOSP project
- */
 class DynamicProxy {
     /**
      * Dynamically adapts a given interface against a delegate object.

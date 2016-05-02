@@ -15,9 +15,6 @@ import android.widget.Toast;
 import com.xiaoying.h5core.R;
 import com.xiaoying.h5core.env.H5Environment;
 
-/**
- * @author jiushi.ldw
- */
 public class H5Toast {
 
     public static void showToast(Context context, int iconRes, String textRes,

@@ -108,18 +108,17 @@ public class H5ParamParser {
             return;
         }
 
-        boolean alipay = H5UrlHelper.isAlipay(uri);
+        boolean isSpecial = H5UrlHelper.isSpecial(uri);
         boolean pullDown = H5Utils.getBoolean(bundle, H5Param.LONG_CAN_PULL_DOWN, false);
-        if (!pullDown && !alipay) {
+        if (!pullDown && !isSpecial) {
             // force set can pull down to show domain
             H5Log.w(TAG, "force to set canPullDown to true");
             bundle.putBoolean(H5Param.LONG_CAN_PULL_DOWN, true);
         }
 
         boolean pullToRefresh = H5Utils.getBoolean(bundle, H5Param.LONG_PULL_REFRESH, false);
-        boolean ali = H5UrlHelper.isAli(uri);
-        if (pullToRefresh && !ali) {
-            // force to avoid non-ali site to hide domain
+        if (pullToRefresh && !isSpecial) {
+
             H5Log.d(TAG, "force to set pullRefresh to false");
             bundle.putBoolean(H5Param.LONG_PULL_REFRESH, false);
         }

@@ -13,12 +13,6 @@ import com.xiaoying.h5core.util.PingUtil;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * network quality analysis plugin
- * currently only analysis through ping(ICMP ECHO request)
- *
- * @author xide.wf
- */
 public class H5NetworkAnalysisPlugin implements H5Plugin {
     private static final String NETWORK_ANALYSIS = "networkAnalysis";
 

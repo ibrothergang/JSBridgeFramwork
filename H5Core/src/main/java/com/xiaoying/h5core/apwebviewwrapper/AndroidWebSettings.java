@@ -7,9 +7,6 @@ import android.webkit.WebSettings;
 
 import com.xiaoying.h5core.apwebview.APWebSettings;
 
-/**
- * @author xide.wf
- */
 final class AndroidWebSettings implements APWebSettings {
     private WebSettings webSettings;
 

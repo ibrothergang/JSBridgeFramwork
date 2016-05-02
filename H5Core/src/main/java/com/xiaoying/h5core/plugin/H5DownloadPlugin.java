@@ -20,11 +20,6 @@ import org.json.JSONObject;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * the implement of download related JSAPI
- *
- * @author xide.wf
- */
 public class H5DownloadPlugin implements StatusListener, ProgressListener,
         H5Plugin {
     public static final String TAG = "H5DownloadPlugin";

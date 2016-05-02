@@ -5,12 +5,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.FrameLayout;
 
-/**
- * the glue web view that integrate different concrete web view implements
- * into h5 container
- *
- * @author xide.wf
- */
 public abstract class GlueWebView extends FrameLayout implements APWebViewCtrl {
     public GlueWebView(Context context) {
         super(context);

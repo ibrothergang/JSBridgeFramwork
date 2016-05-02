@@ -20,7 +20,7 @@ public class H5BridgeImpl implements H5Bridge {
 
     public static final String TAG = "H5BridgeImpl";
 
-    private static final String INVOKE_JS = "AlipayJSBridge._invokeJS(%s)";
+    private static final String INVOKE_JS = "JSBridge._invokeJS(%s)";
 
     private APWebView webView;
 

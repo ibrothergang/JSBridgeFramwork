@@ -219,7 +219,7 @@ public class H5Utils {
     public static String getConfigString(Context context, String key) {
         String value = null;
         try {
-            Uri contentUri = Uri.parse("content://com.alipay.setting/" + key);
+            Uri contentUri = Uri.parse("content://com.js.setting/" + key);
             ContentResolver resolver = context.getContentResolver();
             Cursor cursor = resolver.query(contentUri, new String[]{
                             ""
@@ -238,7 +238,7 @@ public class H5Utils {
     public static boolean getConfigBoolean(Context context, String key) {
         boolean value = false;
         try {
-            Uri contentUri = Uri.parse("content://com.alipay.setting/" + key);
+            Uri contentUri = Uri.parse("content://com.js.setting/" + key);
             ContentResolver resolver = context.getContentResolver();
             Cursor cursor = resolver.query(contentUri, new String[]{
                             ""

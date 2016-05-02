@@ -16,11 +16,6 @@ import org.json.JSONObject;
 import java.util.HashMap;
 import java.util.Iterator;
 
-/**
- * create appropriate web view with respect to the business type
- *
- * @author xide.wf
- */
 public class GlueWebViewFactory {
     private static final String TAG = "GlueWebViewFactory";
     private static final boolean BUILD_WITH_WALLET = true;
@@ -69,8 +64,6 @@ public class GlueWebViewFactory {
             return null;
         }
 
-//        final MicroApplicationContext ctx = AlipayApplication.getInstance()
-//                .getMicroApplicationContext();
 //
         UcWebService ucWebService = null;
 //        if (ctx != null) {

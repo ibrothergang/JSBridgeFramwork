@@ -7,13 +7,6 @@ import android.webkit.ValueCallback;
 
 import java.util.Map;
 
-/**
- * control interface to tune the behavior of web view
- * <p/>
- * ref: http://developer.android.com/reference/android/webkit/WebView.html
- *
- * @author xide.wf
- */
 public interface APWebViewCtrl {
     public void addJavascriptInterface(Object object, String name);
 

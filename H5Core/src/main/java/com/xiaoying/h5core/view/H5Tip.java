@@ -16,9 +16,6 @@ import android.widget.TextView;
 
 import com.xiaoying.h5core.R;
 
-/**
- * @author xide.wf
- */
 public class H5Tip {
     static Handler handler = null;
     static Runnable task = null;

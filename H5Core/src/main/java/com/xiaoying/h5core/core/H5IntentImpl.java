@@ -14,9 +14,6 @@ import com.xiaoying.h5core.util.H5Log;
 import org.json.JSONException;
 import org.json.JSONObject;
 
-/**
- * @author shenxin.dsx
- */
 public class H5IntentImpl implements H5Intent {
 
     public static final String TAG = "H5Intent";

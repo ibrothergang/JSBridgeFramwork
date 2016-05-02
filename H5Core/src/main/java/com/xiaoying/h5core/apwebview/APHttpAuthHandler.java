@@ -1,10 +1,5 @@
 package com.xiaoying.h5core.apwebview;
 
-/**
- * similar role to HttpAuthHandler in android sdk
- *
- * @author xide.wf
- */
 public interface APHttpAuthHandler {
     public void cancel();
 

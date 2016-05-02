@@ -10,9 +10,6 @@ import android.text.TextUtils;
 
 import com.xiaoying.h5core.util.H5Log;
 
-/**
- * @author xide.wf
- */
 public class H5Alert implements OnClickListener, OnCancelListener {
     public static final String TAG = "H5Alert";
     public static final int INDEX_LEFT = 0;

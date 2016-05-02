@@ -175,8 +175,7 @@ public class H5LongClickPlugin implements H5Plugin, OnLongClickListener {
 //                    extension = ".jpg";
 //                }
 //
-//                filePath = Environment.getExternalStorageDirectory()
-//                        + "/DCIM/Alipay/" + System.currentTimeMillis() + extension;
+//               
 //                if (!FileUtil.create(filePath)) {
 //                    H5Log.w(TAG, "failed to create file " + filePath);
 //                    return false;

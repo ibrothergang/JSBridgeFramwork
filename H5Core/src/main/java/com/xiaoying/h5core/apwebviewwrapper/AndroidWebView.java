@@ -27,11 +27,6 @@ import com.xiaoying.h5core.util.H5Log;
 
 import java.util.Map;
 
-/**
- * glue webview implement basing android build-in webview
- *
- * @author xide.wf
- */
 public class AndroidWebView extends GlueWebView {
     private static final String TAG = "AndroidWebView";
     private APWebSettings webSettings;

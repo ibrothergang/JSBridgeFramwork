@@ -82,7 +82,7 @@ public class H5JSInjector {
         synchronized (injectorLock) {
             bridgeParams.put(key, value);
             H5Log.d(TAG, "setParamsToWebPage [key] " + key + " [value] " + value);
-            webView.loadUrl("javascript:if(typeof AlipayJSBridge === 'object'){AlipayJSBridge."
+            webView.loadUrl("javascript:if(typeof JSBridge === 'object'){JSBridge."
                     + key + "=" + value + "'}");
         }
     }
@@ -105,11 +105,11 @@ public class H5JSInjector {
             return;
         }
 
-        String startupStr = "AlipayJSBridge.startupParams=\'{startupParams}\'";
+        String startupStr = "JSBridge.startupParams=\'{startupParams}\'";
         String paramsStr = "";
         for (String key : bridgeParams.keySet()) {
             String value = bridgeParams.get(key);
-            paramsStr += ";AlipayJSBridge." + key + "=" + value + ";";
+            paramsStr += ";JSBridge." + key + "=" + value + ";";
         }
 
         // replace startup parameters
@@ -184,7 +184,6 @@ public class H5JSInjector {
 
         String h5_DynamicScript = H5Environment.getConfig("h5_DynamicScript");
         // h5_DynamicScript =
-        // "http://ux.alipay-inc.com/ftp/h5/dawson/remote.js";
         if (TextUtils.isEmpty(h5_DynamicScript)) {
             H5Log.d(TAG, "no config found for dynamic script");
             return;

@@ -142,7 +142,7 @@ public class H5CalendarPlugin implements H5Plugin {
             } else {
                 ContentValues cValues = new ContentValues();
                 cValues.put("_id", calId);
-                cValues.put("name", "alipayH5");
+                cValues.put("name", "JSH5");
                 context.getContentResolver().insert(Uri.parse(calanderURL),
                         cValues);
             }

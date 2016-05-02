@@ -408,9 +408,6 @@ public class H5NavigationBar implements H5Plugin, TitleProvider {
 
     public void loadImageAsync(String imageUrl) {
         //TODO loadImage
-//        ImageLoaderService imageLoaderService = AlipayApplication
-//                .getInstance().getMicroApplicationContext()
-//                .findServiceByInterface(ImageLoaderService.class.getName());
 //        imageLoaderService.startLoad(null, null, imageUrl, new ImageLoaderListener() {
 //            @Override
 //            public void onPostLoad(String arg0, Bitmap image) {

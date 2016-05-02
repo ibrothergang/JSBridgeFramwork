@@ -44,18 +44,9 @@ public class H5Environment {
     }
 
     public static Resources getResources() {
-//        if (resources == null) {
-////            BundleContext bundleContext = AlipayApplication.getInstance()
-////                    .getBundleContext();
-////            resources = bundleContext
-////                    .getResourcesByBundle("android-phone-businesscommon-h5container");
-//        }
+//
         return context.getResources();
     }
-
-//    public static final MicroApplicationContext getMicroContext() {
-//        return AlipayApplication.getInstance().getMicroApplicationContext();
-//    }
 
     public static String getSessionId(H5Context h5Context, Bundle bundle) {
         if (bundle == null) {
