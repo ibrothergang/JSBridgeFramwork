@@ -14,7 +14,7 @@ import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5api.api.H5PluginManager;
 import com.xiaoying.h5api.api.H5Session;
 import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5core.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;

@@ -8,7 +8,7 @@ import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
-import com.xiaoying.h5core.util.PingUtil;
+import com.xiaoying.h5api.util.PingUtil;
 
 import org.json.JSONException;
 import org.json.JSONObject;

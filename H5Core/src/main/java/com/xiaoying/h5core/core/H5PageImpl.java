@@ -31,7 +31,7 @@ import com.xiaoying.h5core.plugin.H5ShakePlugin;
 import com.xiaoying.h5core.ui.H5Activity;
 import com.xiaoying.h5api.util.FileUtil;
 import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5core.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.web.H5WebChromeClient;
 import com.xiaoying.h5core.web.H5WebView;

@@ -1,4 +1,4 @@
-package com.xiaoying.h5core.util;
+package com.xiaoying.h5api.util;
 
 import android.net.Uri;
 import android.text.TextUtils;

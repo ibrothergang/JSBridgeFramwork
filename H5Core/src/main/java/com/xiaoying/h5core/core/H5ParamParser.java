@@ -7,7 +7,7 @@ import android.text.TextUtils;
 import com.xiaoying.h5api.api.H5Param;
 import com.xiaoying.h5api.api.H5Param.ParamType;
 import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5core.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
 
 import java.util.LinkedList;

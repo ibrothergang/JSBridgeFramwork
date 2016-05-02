@@ -19,7 +19,7 @@ import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5core.refresh.H5PullAdapter;
 import com.xiaoying.h5core.refresh.H5PullContainer;
 import com.xiaoying.h5core.refresh.H5PullHeader;
-import com.xiaoying.h5core.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.view.H5Progress;
 
