@@ -8,12 +8,12 @@ import android.view.View.OnClickListener;
 import android.widget.ImageView;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Intent;
-import com.xiaoying.h5core.api.H5IntentFilter;
-import com.xiaoying.h5core.api.H5Page;
-import com.xiaoying.h5core.api.H5Plugin;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -76,10 +76,10 @@ public class H5ToolBar implements H5Plugin, OnClickListener {
             pbReload.setVisibility(View.VISIBLE);
             ivReload.setVisibility(View.GONE);
         } else if (SET_TOOL_MENU.equals(action)) {
-            try{
+            try {
                 h5ToolMenu.setMenu(intent, false);
-            }catch (JSONException e){
-                H5Log.e(TAG,"exception",e);
+            } catch (JSONException e) {
+                H5Log.e(TAG, "exception", e);
             }
 
             updateMenu();

@@ -3,9 +3,9 @@
 
     <!-- Non focused states -->
 
-    <item android:color="@color/subBtnEnableFalse" android:state_enabled="false"/>
+    <item android:color="@color/subBtnEnableFalse" android:state_enabled="false" />
     <!-- Pressed -->
 
-    <item android:color="@color/mainTextColor"/>
+    <item android:color="@color/mainTextColor" />
 
 </selector>

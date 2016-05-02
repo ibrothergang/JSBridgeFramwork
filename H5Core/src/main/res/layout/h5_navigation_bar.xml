@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.xiaoying.h5core.view.H5RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                                     xmlns:tools="http://schemas.android.com/tools"
-                                                     android:id="@+id/rl_h5_title_bar"
-                                                     android:layout_width="fill_parent"
-                                                     android:layout_height="@dimen/h5_title_height"
-                                                     android:background="@color/h5_nav_menu_normal">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_h5_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/h5_title_height"
+    android:background="@color/h5_nav_menu_normal">
 
     <RelativeLayout
         android:id="@+id/ll_h5_title"
@@ -22,7 +22,7 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:textColor="@color/white"
-            android:textSize="@dimen/h5_nav_title_text"/>
+            android:textSize="@dimen/h5_nav_title_text" />
 
         <TextView
             android:id="@+id/tv_h5_subtitle"
@@ -36,7 +36,7 @@
             android:gravity="center"
             android:singleLine="true"
             android:textColor="@color/white"
-            android:textSize="@dimen/h5_nav_subtitle_text"/>
+            android:textSize="@dimen/h5_nav_subtitle_text" />
     </RelativeLayout>
 
     <TextView
@@ -51,7 +51,7 @@
         android:singleLine="true"
         android:text="@string/h5_backward"
         android:textColor="@drawable/h5_nav_btn_text"
-        android:textSize="@dimen/h5_nav_button_text"/>
+        android:textSize="@dimen/h5_nav_button_text" />
 
     <TextView
         android:id="@+id/h5_nav_close"
@@ -66,7 +66,7 @@
         android:singleLine="true"
         android:text="@string/h5_close"
         android:textColor="@drawable/h5_nav_btn_text"
-        android:textSize="@dimen/h5_nav_button_text"/>
+        android:textSize="@dimen/h5_nav_button_text" />
 
     <FrameLayout
         android:id="@+id/h5_nav_options"
@@ -85,7 +85,7 @@
             android:contentDescription="@string/app_name"
             android:padding="4dp"
             android:scaleType="fitCenter"
-            android:visibility="gone"/>
+            android:visibility="gone" />
 
         <TextView
             android:id="@+id/bt_h5_text"
@@ -96,7 +96,7 @@
             android:background="@null"
             android:singleLine="true"
             android:textColor="@drawable/h5_nav_btn_text"
-            android:textSize="@dimen/h5_nav_button_text"/>
+            android:textSize="@dimen/h5_nav_button_text" />
 
         <ImageButton
             android:id="@+id/bt_h5_options"
@@ -109,7 +109,7 @@
             android:scaleType="centerInside"
             android:src="@drawable/h5_nav_options_selector"
             android:visibility="gone"
-            tools:ignore="ContentDescription"/>
+            tools:ignore="ContentDescription" />
 
         <FrameLayout
             android:id="@+id/bt_h5_dot"
@@ -126,7 +126,7 @@
                 android:layout_marginTop="6dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/redpoint"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/bt_h5_dot_number"
@@ -136,7 +136,7 @@
                 android:gravity="center"
                 android:includeFontPadding="false"
                 android:textColor="@color/white"
-                android:textSize="12sp"/>
+                android:textSize="12sp" />
         </FrameLayout>
     </FrameLayout>
 

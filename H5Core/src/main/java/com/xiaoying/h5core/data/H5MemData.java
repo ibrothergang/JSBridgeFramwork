@@ -1,6 +1,6 @@
 package com.xiaoying.h5core.data;
 
-import com.xiaoying.h5core.api.H5Data;
+import com.xiaoying.h5api.api.H5Data;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -12,15 +12,15 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Intent;
-import com.xiaoying.h5core.api.H5IntentFilter;
-import com.xiaoying.h5core.api.H5Page;
-import com.xiaoying.h5core.api.H5Param;
-import com.xiaoying.h5core.api.H5Plugin;
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.env.H5Environment;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -295,10 +295,10 @@ public class H5NavigationBar implements H5Plugin, TitleProvider {
             boolean show = H5Utils.getBoolean(param, "show", false);
             showClose(show);
         } else if (SET_TOOL_MENU.equals(action)) {
-            try{
+            try {
                 h5NavMenu.setMenu(intent, pageStarted);
-            }catch (JSONException e){
-                H5Log.e(TAG,"exception",e);
+            } catch (JSONException e) {
+                H5Log.e(TAG, "exception", e);
             }
 
         } else if (H5Container.H5_PAGE_SET_BACK_TEXT.equals(action)) {

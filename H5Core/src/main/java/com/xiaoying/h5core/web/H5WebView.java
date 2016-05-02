@@ -26,11 +26,11 @@ import com.xiaoying.h5core.apwebview.APWebViewClient;
 import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5core.refresh.H5PullableView;
 import com.xiaoying.h5core.refresh.OverScrollListener;
-import com.xiaoying.h5core.util.FileUtil;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
-import com.xiaoying.h5core.util.NetworkUtil;
-import com.xiaoying.h5core.util.NetworkUtil.NetworkType;
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5api.util.NetworkUtil;
+import com.xiaoying.h5api.util.NetworkUtil.NetworkType;
 
 import java.util.Map;
 
@@ -45,11 +45,13 @@ public class H5WebView extends APWebView implements H5PullableView {
 
     ;
     private boolean released = false;
+
     public H5WebView(Context context) {
         super(context);
         webViewIndex = WEBVIEW_INDEX++;
         TAG += "(type:" + webView.getVersion() + " version:" + ")";
     }
+
     public H5WebView(Context context, final Bundle webViewCfg) {
         super(context, webViewCfg);
         webViewIndex = WEBVIEW_INDEX++;

@@ -1,6 +1,6 @@
 package com.xiaoying.h5core.core;
 
-import com.xiaoying.h5core.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5IntentFilter;
 
 import java.util.HashSet;
 import java.util.Iterator;

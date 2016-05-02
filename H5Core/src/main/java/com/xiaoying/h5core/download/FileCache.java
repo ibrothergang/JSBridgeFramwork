@@ -3,8 +3,8 @@ package com.xiaoying.h5core.download;
 import android.content.Context;
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.util.FileUtil;
-import com.xiaoying.h5core.util.SecurityUtil;
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.SecurityUtil;
 
 import java.io.File;
 import java.util.Stack;

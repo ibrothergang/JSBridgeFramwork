@@ -13,7 +13,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.util.H5Environment;
 
 public class H5Toast {
 

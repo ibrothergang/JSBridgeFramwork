@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/h5_font_blank"
         android:layout_width="fill_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_weight="1" />
 
     <LinearLayout
         android:id="@+id/h5_font_bar"
@@ -34,7 +34,7 @@
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/font_size1_selector"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </FrameLayout>
 
         <FrameLayout
@@ -52,7 +52,7 @@
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/font_size2_selector"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </FrameLayout>
 
         <FrameLayout
@@ -70,7 +70,7 @@
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/font_size3_selector"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </FrameLayout>
 
         <FrameLayout
@@ -88,7 +88,7 @@
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/font_size4_selector"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </FrameLayout>
 
         <FrameLayout
@@ -106,7 +106,7 @@
                 android:padding="10dp"
                 android:scaleType="centerInside"
                 android:src="@drawable/font_close_selector"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
         </FrameLayout>
     </LinearLayout>
 

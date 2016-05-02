@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                xmlns:tools="http://schemas.android.com/tools"
-                android:id="@+id/rl_h5_title_bar"
-                android:layout_width="fill_parent"
-                android:layout_height="@dimen/h5_title_height"
-                android:background="@drawable/app_titlebar_bg">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_h5_title_bar"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/h5_title_height"
+    android:background="@drawable/app_titlebar_bg">
 
     <LinearLayout
         android:id="@+id/ll_h5_title"
@@ -22,7 +22,7 @@
             android:ellipsize="end"
             android:singleLine="true"
             android:textColor="@color/white"
-            android:textSize="18.7sp"/>
+            android:textSize="18.7sp" />
 
         <TextView
             android:id="@+id/tv_h5_subtitle"
@@ -33,7 +33,7 @@
             android:gravity="center"
             android:padding="5.4dp"
             android:textColor="@color/white"
-            android:textSize="13.3sp"/>
+            android:textSize="13.3sp" />
     </LinearLayout>
 
     <FrameLayout
@@ -52,7 +52,7 @@
             android:layout_margin="3dp"
             android:background="@color/transparent"
             android:contentDescription="@string/app_name"
-            android:scaleType="fitXY"/>
+            android:scaleType="fitXY" />
 
         <Button
             android:id="@+id/bt_h5_text"
@@ -66,7 +66,7 @@
             android:paddingLeft="9dp"
             android:paddingRight="9dp"
             android:textColor="@color/white"
-            android:textSize="14sp"/>
+            android:textSize="14sp" />
 
         <FrameLayout
             android:id="@+id/bt_h5_dot"
@@ -82,7 +82,7 @@
                 android:layout_gravity="center"
                 android:scaleType="center"
                 android:src="@drawable/redpoint"
-                tools:ignore="ContentDescription"/>
+                tools:ignore="ContentDescription" />
 
             <TextView
                 android:id="@+id/bt_h5_dot_number"
@@ -94,7 +94,7 @@
                 android:textColor="@color/white"
                 android:textSize="12sp"
                 android:visibility="gone"
-                tools:ignore="HardcodedText"/>
+                tools:ignore="HardcodedText" />
         </FrameLayout>
     </FrameLayout>
 

@@ -2,14 +2,14 @@ package com.xiaoying.h5core.manager;
 
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.api.H5Intent;
-import com.xiaoying.h5core.api.H5IntentFilter;
-import com.xiaoying.h5core.api.H5Plugin;
-import com.xiaoying.h5core.api.H5PluginConfig;
-import com.xiaoying.h5core.api.H5PluginManager;
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.api.H5PluginConfig;
+import com.xiaoying.h5api.api.H5PluginManager;
 import com.xiaoying.h5core.core.H5IntentFilterImpl;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 
 import java.util.ArrayList;
 import java.util.HashMap;

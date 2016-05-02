@@ -4,12 +4,12 @@
 
 package com.xiaoying.h5core.core;
 
-import com.xiaoying.h5core.api.H5Bridge;
-import com.xiaoying.h5core.api.H5CallBack;
-import com.xiaoying.h5core.api.H5CoreNode;
-import com.xiaoying.h5core.api.H5Intent;
+import com.xiaoying.h5api.api.H5Bridge;
+import com.xiaoying.h5api.api.H5CallBack;
+import com.xiaoying.h5api.api.H5CoreNode;
+import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.H5Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;

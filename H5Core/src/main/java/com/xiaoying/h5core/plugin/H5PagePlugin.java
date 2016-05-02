@@ -4,19 +4,19 @@ import android.content.Context;
 import android.text.TextUtils;
 import android.widget.Toast;
 
+import com.xiaoying.h5api.api.H5Bridge;
+import com.xiaoying.h5api.api.H5CallBack;
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Bridge;
-import com.xiaoying.h5core.api.H5CallBack;
-import com.xiaoying.h5core.api.H5Intent;
-import com.xiaoying.h5core.api.H5IntentFilter;
-import com.xiaoying.h5core.api.H5Param;
-import com.xiaoying.h5core.api.H5Plugin;
 import com.xiaoying.h5core.apwebview.APWebBackForwardList;
 import com.xiaoying.h5core.core.H5PageImpl;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.env.H5Environment;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
 import com.xiaoying.h5core.view.H5FontBar;
 import com.xiaoying.h5core.web.H5WebView;
 
@@ -33,6 +33,7 @@ public class H5PagePlugin implements H5Plugin {
     private PageStatus pageStatus;
     private H5BackHandler backHandler;
     private BackBehavior backBehavior;
+
     public H5PagePlugin(H5PageImpl h5Page) {
         this.h5Page = h5Page;
         this.h5WebView = (H5WebView) h5Page.getWebView();
@@ -82,6 +83,7 @@ public class H5PagePlugin implements H5Plugin {
             String tag = H5Utils.getString(param, H5Container.MENU_TAG);
             boolean shoot = H5Utils.getBoolean(param, "shoot", false);
             if (!H5Container.MENU_SHARE.equals(tag) || shoot) {
+                H5Log.d(TAG, "param:" + param.toString());
                 return false;
             }
 

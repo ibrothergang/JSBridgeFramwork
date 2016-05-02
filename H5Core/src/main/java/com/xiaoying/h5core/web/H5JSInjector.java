@@ -4,12 +4,12 @@ import android.content.Context;
 import android.text.TextUtils;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Param;
+import com.xiaoying.h5api.api.H5Param;
 import com.xiaoying.h5core.core.H5PageImpl;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.env.H5Environment;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONObject;
 

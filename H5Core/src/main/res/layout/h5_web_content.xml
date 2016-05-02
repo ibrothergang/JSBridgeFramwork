@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                android:id="@+id/h5_web_content"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:background="@color/transparent">
+    android:id="@+id/h5_web_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent">
 
     <TextView
         android:id="@+id/tv_h5_provider"
@@ -12,13 +12,13 @@
         android:background="@color/transparent"
         android:gravity="center|top"
         android:paddingTop="6dp"
-        android:textColor="@color/white"/>
+        android:textColor="@color/white" />
 
     <com.xiaoying.h5core.refresh.H5PullContainer
         android:id="@+id/pc_h5_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/transparent"/>
+        android:background="@color/transparent" />
 
     <com.xiaoying.h5core.view.H5Progress
         android:id="@+id/pb_h5_progress"
@@ -29,6 +29,6 @@
         android:indeterminate="false"
         android:max="100"
         android:progress="0"
-        android:secondaryProgress="0"/>
+        android:secondaryProgress="0" />
 
 </RelativeLayout>

@@ -5,7 +5,7 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ProgressBar;
 
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.H5Log;
 
 import java.util.Timer;
 import java.util.TimerTask;

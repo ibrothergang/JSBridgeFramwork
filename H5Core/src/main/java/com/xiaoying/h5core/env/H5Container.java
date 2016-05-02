@@ -1,6 +1,6 @@
 package com.xiaoying.h5core.env;
 
-import com.xiaoying.h5core.api.H5Service;
+import com.xiaoying.h5api.api.H5Service;
 import com.xiaoying.h5core.core.H5Router;
 import com.xiaoying.h5core.core.H5ServiceImpl;
 

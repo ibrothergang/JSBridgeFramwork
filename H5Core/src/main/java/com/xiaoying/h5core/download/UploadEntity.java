@@ -2,7 +2,7 @@ package com.xiaoying.h5core.download;
 
 import android.webkit.MimeTypeMap;
 
-import com.xiaoying.h5core.util.FileUtil;
+import com.xiaoying.h5api.util.FileUtil;
 
 import org.apache.http.entity.AbstractHttpEntity;
 

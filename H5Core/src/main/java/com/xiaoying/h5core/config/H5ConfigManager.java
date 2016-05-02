@@ -2,7 +2,7 @@ package com.xiaoying.h5core.config;
 
 import android.os.Bundle;
 
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.util.H5Environment;
 
 public class H5ConfigManager {
     public static final String TAG = "H5ConfigManager";

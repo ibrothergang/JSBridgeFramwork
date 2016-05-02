@@ -4,11 +4,11 @@ import android.content.Context;
 import android.os.Build;
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.api.H5Page;
+import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5core.apwebviewwrapper.AndroidWebView;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

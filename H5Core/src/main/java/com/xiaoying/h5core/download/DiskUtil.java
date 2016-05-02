@@ -4,7 +4,7 @@ import android.content.Context;
 import android.os.Environment;
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.util.FileUtil;
+import com.xiaoying.h5api.util.FileUtil;
 
 import java.io.File;
 

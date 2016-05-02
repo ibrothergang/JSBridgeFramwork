@@ -3,6 +3,8 @@ package com.xiaoying.h5core.util;
 import android.net.Uri;
 import android.text.TextUtils;
 
+import com.xiaoying.h5api.util.H5Log;
+
 public class H5UrlHelper {
     public static final String TAG = "UrlHelper";
 
@@ -63,7 +65,7 @@ public class H5UrlHelper {
         if (TextUtils.isEmpty(host)) {
             return false;
         }
-       //TODO Increase the special domain of judgment
+        //TODO Increase the special domain of judgment
         return false;
     }
 }

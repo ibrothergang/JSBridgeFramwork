@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Button xmlns:android="http://schemas.android.com/apk/res/android"
-        style="@style/dialogButtonStyle"
-        android:layout_marginBottom="15dip"
-        android:layout_marginLeft="13.33dip"
-        android:layout_marginRight="13.33dip"
-        android:layout_marginTop="18dip">
+    style="@style/dialogButtonStyle"
+    android:layout_marginBottom="15dip"
+    android:layout_marginLeft="13.33dip"
+    android:layout_marginRight="13.33dip"
+    android:layout_marginTop="18dip">
 
 </Button>

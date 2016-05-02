@@ -4,8 +4,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.api.H5Data;
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.api.H5Data;
+import com.xiaoying.h5api.util.H5Environment;
 
 public class H5PrefData implements H5Data {
 

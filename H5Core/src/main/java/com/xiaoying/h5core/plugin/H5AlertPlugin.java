@@ -5,13 +5,13 @@ import android.content.res.Resources;
 import android.text.TextUtils;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Intent;
-import com.xiaoying.h5core.api.H5IntentFilter;
-import com.xiaoying.h5core.api.H5Page;
-import com.xiaoying.h5core.api.H5Plugin;
-import com.xiaoying.h5core.env.H5Environment;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.view.H5Alert;
 
 import org.json.JSONArray;
@@ -77,9 +77,9 @@ public class H5AlertPlugin implements H5Plugin {
             return;
         }
 
-        String title = H5Utils.getString(params,"title");
-        String message = H5Utils.getString(params,"message");
-        String button = H5Utils.getString(params,"button");
+        String title = H5Utils.getString(params, "title");
+        String message = H5Utils.getString(params, "message");
+        String button = H5Utils.getString(params, "button");
 
         if (TextUtils.isEmpty(button)) {
             button = H5Environment.getResources().getString(
@@ -124,12 +124,12 @@ public class H5AlertPlugin implements H5Plugin {
         String title = params.getString("title");
         String message = params.getString("message");
 
-        String confirm = H5Utils.getString(params,"okButton");
+        String confirm = H5Utils.getString(params, "okButton");
         Resources resources = H5Environment.getResources();
         if (TextUtils.isEmpty(confirm)) {
             confirm = resources.getString(R.string.default_confirm);
         }
-        String cancel = H5Utils.getString(params,"cancelButton");
+        String cancel = H5Utils.getString(params, "cancelButton");
         if (TextUtils.isEmpty(cancel)) {
             cancel = resources.getString(R.string.default_cancel);
         }

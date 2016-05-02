@@ -1,6 +1,6 @@
 package com.xiaoying.h5core.download;
 
-import com.xiaoying.h5core.util.FileUtil;
+import com.xiaoying.h5api.util.FileUtil;
 
 import java.io.IOException;
 import java.io.InputStream;

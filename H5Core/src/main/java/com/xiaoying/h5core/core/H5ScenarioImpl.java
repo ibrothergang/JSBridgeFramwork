@@ -1,7 +1,7 @@
 package com.xiaoying.h5core.core;
 
-import com.xiaoying.h5core.api.H5Data;
-import com.xiaoying.h5core.api.H5Scenario;
+import com.xiaoying.h5api.api.H5Data;
+import com.xiaoying.h5api.api.H5Scenario;
 import com.xiaoying.h5core.data.H5PrefData;
 
 public class H5ScenarioImpl implements H5Scenario {

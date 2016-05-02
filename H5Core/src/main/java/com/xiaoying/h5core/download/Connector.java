@@ -3,8 +3,8 @@ package com.xiaoying.h5core.download;
 import android.text.TextUtils;
 
 import com.xiaoying.h5core.download.ConnectInfo.HttpMethod;
-import com.xiaoying.h5core.util.FileUtil;
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Log;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;

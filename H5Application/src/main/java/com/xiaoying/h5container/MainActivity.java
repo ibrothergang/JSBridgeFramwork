@@ -7,10 +7,10 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
-import com.xiaoying.h5core.api.H5Bundle;
-import com.xiaoying.h5core.api.H5Context;
-import com.xiaoying.h5core.api.H5Param;
-import com.xiaoying.h5core.api.H5Service;
+import com.xiaoying.h5api.api.H5Bundle;
+import com.xiaoying.h5api.api.H5Context;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Service;
 import com.xiaoying.h5core.env.H5Container;
 
 /**

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
 
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.util.H5Environment;
 
 public class H5CookieHelper {
     public static final String TAG = "H5CookieHelper";

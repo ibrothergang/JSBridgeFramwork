@@ -13,9 +13,9 @@ import android.view.KeyEvent;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebViewClient;
 
-import com.xiaoying.h5core.api.H5Param;
-import com.xiaoying.h5core.api.H5Plugin;
-import com.xiaoying.h5core.api.H5WebProvider;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.api.H5WebProvider;
 import com.xiaoying.h5core.apwebview.APHttpAuthHandler;
 import com.xiaoying.h5core.apwebview.APSslErrorHandler;
 import com.xiaoying.h5core.apwebview.APWebBackForwardList;
@@ -23,11 +23,11 @@ import com.xiaoying.h5core.apwebview.APWebViewClient;
 import com.xiaoying.h5core.apwebview.APWebViewCtrl;
 import com.xiaoying.h5core.core.H5PageImpl;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.env.H5Environment;
-import com.xiaoying.h5core.util.FileUtil;
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5core.util.H5UrlHelper;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;

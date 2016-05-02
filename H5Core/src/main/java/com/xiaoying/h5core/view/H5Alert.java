@@ -8,7 +8,7 @@ import android.content.DialogInterface.OnClickListener;
 import android.os.Build;
 import android.text.TextUtils;
 
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.H5Log;
 
 public class H5Alert implements OnClickListener, OnCancelListener {
     public static final String TAG = "H5Alert";
@@ -25,6 +25,7 @@ public class H5Alert implements OnClickListener, OnCancelListener {
     private boolean cancelable = true;
     private H5AlertListener listener;
     private AlertDialog dialog;
+
     public H5Alert(Activity activity) {
         this.activity = activity;
     }

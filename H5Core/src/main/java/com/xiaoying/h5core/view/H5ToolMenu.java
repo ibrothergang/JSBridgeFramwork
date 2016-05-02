@@ -16,9 +16,9 @@ import android.widget.PopupWindow;
 import android.widget.TextView;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.api.H5Page;
+import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.util.H5Environment;
 
 import java.util.ArrayList;
 

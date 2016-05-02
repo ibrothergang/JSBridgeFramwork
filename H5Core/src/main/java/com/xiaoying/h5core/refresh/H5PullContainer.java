@@ -25,6 +25,7 @@ public class H5PullContainer extends FrameLayout implements OverScrollListener {
     private boolean overScrolled;
 
     private View headerView;
+
     public H5PullContainer(Context context) {
         super(context);
     }

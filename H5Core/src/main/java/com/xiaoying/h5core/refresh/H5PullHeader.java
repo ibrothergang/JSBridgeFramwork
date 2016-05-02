@@ -9,7 +9,7 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.env.H5Environment;
+import com.xiaoying.h5api.util.H5Environment;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

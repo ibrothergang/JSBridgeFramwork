@@ -2,17 +2,17 @@ package com.xiaoying.h5core.core;
 
 import android.os.Bundle;
 
-import com.xiaoying.h5core.api.H5Listener;
-import com.xiaoying.h5core.api.H5Page;
-import com.xiaoying.h5core.api.H5Plugin;
-import com.xiaoying.h5core.api.H5PluginManager;
-import com.xiaoying.h5core.api.H5Scenario;
-import com.xiaoying.h5core.api.H5Session;
-import com.xiaoying.h5core.api.H5WebProvider;
+import com.xiaoying.h5api.api.H5Listener;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.api.H5PluginManager;
+import com.xiaoying.h5api.api.H5Scenario;
+import com.xiaoying.h5api.api.H5Session;
+import com.xiaoying.h5api.api.H5WebProvider;
 import com.xiaoying.h5core.data.H5MemData;
 import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5core.plugin.H5SessionPlugin;
-import com.xiaoying.h5core.util.H5Log;
+import com.xiaoying.h5api.util.H5Log;
 
 import java.io.InputStream;
 import java.util.Iterator;

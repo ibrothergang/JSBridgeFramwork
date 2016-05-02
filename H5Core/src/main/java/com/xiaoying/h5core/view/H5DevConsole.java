@@ -15,9 +15,9 @@ import android.widget.ScrollView;
 import android.widget.TextView;
 
 import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.util.H5Log;
-import com.xiaoying.h5core.util.H5Log.LogListener;
-import com.xiaoying.h5core.util.H5Utils;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Log.LogListener;
+import com.xiaoying.h5api.util.H5Utils;
 
 public class H5DevConsole implements OnClickListener, LogListener {
     public static final String TAG = "H5DevConsole";

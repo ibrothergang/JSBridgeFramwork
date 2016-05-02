@@ -2,7 +2,7 @@
 
     <declare-styleable name="apWebView">
         <!-- 使用APWebView的业务方的类型（注意与线上配置保持一致） -->
-        <attr name="bizType" format="string"/>
+        <attr name="bizType" format="string" />
     </declare-styleable>
 
 </resources>
