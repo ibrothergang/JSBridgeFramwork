@@ -16,10 +16,15 @@ import com.xiaoying.h5api.api.H5PluginManager;
 import com.xiaoying.h5api.api.H5Scenario;
 import com.xiaoying.h5api.api.H5Service;
 import com.xiaoying.h5api.api.H5Session;
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.bridge.H5BridgeImpl;
+import com.xiaoying.h5core.config.H5PluginConfigManager;
 import com.xiaoying.h5core.data.H5MemData;
 import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5core.plugin.H5ActionSheetPlugin;
 import com.xiaoying.h5core.plugin.H5AlertPlugin;
 import com.xiaoying.h5core.plugin.H5InjectPlugin;
@@ -29,10 +34,6 @@ import com.xiaoying.h5core.plugin.H5NotifyPlugin;
 import com.xiaoying.h5core.plugin.H5PagePlugin;
 import com.xiaoying.h5core.plugin.H5ShakePlugin;
 import com.xiaoying.h5core.ui.H5Activity;
-import com.xiaoying.h5api.util.FileUtil;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5UrlHelper;
-import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5core.web.H5WebChromeClient;
 import com.xiaoying.h5core.web.H5WebView;
 import com.xiaoying.h5core.web.H5WebViewClient;
@@ -308,6 +309,9 @@ public class H5PageImpl extends H5CoreTarget implements H5Page {
         pm.register(new H5InjectPlugin(this));
         pm.register(new H5LongClickPlugin(this));
         pm.register(new H5PagePlugin(this));
+        H5Plugin localH5Plugin = H5PluginConfigManager.getInstance().createPlugin("page", pm);
+        if (localH5Plugin != null)
+            pm.register(localH5Plugin);
     }
 
     private void initSession() {

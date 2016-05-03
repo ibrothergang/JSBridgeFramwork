@@ -2,6 +2,9 @@ package com.xiaoying.h5api.api;
 
 public interface H5Service extends H5CoreNode {
 
+
+    public abstract void addPluginConfig(H5PluginConfig paramH5PluginConfig);
+
     public H5Page createPage(H5Context h5Context, H5Bundle params);
 
     public boolean startPage(H5Context h5Context, H5Bundle params);

@@ -10,11 +10,15 @@ import com.xiaoying.h5api.api.H5Bundle;
 import com.xiaoying.h5api.api.H5Context;
 import com.xiaoying.h5api.api.H5Listener;
 import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.api.H5PluginConfig;
 import com.xiaoying.h5api.api.H5PluginManager;
 import com.xiaoying.h5api.api.H5Service;
 import com.xiaoying.h5api.api.H5Session;
-import com.xiaoying.h5core.data.H5SecureData;
 import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5core.config.H5PluginConfigManager;
+import com.xiaoying.h5core.data.H5SecureData;
 import com.xiaoying.h5core.plugin.H5ClipboardPlugin;
 import com.xiaoying.h5core.plugin.H5CookiePlugin;
 import com.xiaoying.h5core.plugin.H5DownloadPlugin;
@@ -24,7 +28,6 @@ import com.xiaoying.h5core.plugin.H5SecurePlugin;
 import com.xiaoying.h5core.plugin.H5ServicePlugin;
 import com.xiaoying.h5core.plugin.H5SystemPlugin;
 import com.xiaoying.h5core.ui.H5Activity;
-import com.xiaoying.h5api.util.H5Log;
 
 import java.util.HashMap;
 import java.util.Iterator;
@@ -55,6 +58,12 @@ public class H5ServiceImpl extends H5CoreTarget implements H5Service {
         return "h5session" + currentSessionId;
     }
 
+
+    @Override
+    public void addPluginConfig(H5PluginConfig paramH5PluginConfig) {
+        H5PluginConfigManager.getInstance().addConfig(paramH5PluginConfig);
+    }
+
     private void initPlugins() {
         H5PluginManager pluginManager = getPluginManager();
 
@@ -67,6 +76,10 @@ public class H5ServiceImpl extends H5CoreTarget implements H5Service {
         pluginManager.register(new H5DownloadPlugin());
         pluginManager.register(new H5DefaultPlugin());
         pluginManager.register(new H5NetworkAnalysisPlugin());
+
+        H5Plugin localH5Plugin = H5PluginConfigManager.getInstance().createPlugin("service", pluginManager);
+        if (localH5Plugin != null)
+            pluginManager.register(localH5Plugin);
     }
 
     @Override

@@ -31,26 +31,6 @@ public class H5PluginManagerImpl implements H5PluginManager {
         actionMap = new HashMap<String, List<H5Plugin>>();
     }
 
-
-    @Override
-    public boolean register(H5PluginConfig pluginConfig) {
-        Class<?> classType = H5Utils.getClass(pluginConfig.packageName);
-
-        try {
-            Object object = classType.newInstance();
-            if (object instanceof H5Plugin) {
-                H5Plugin h5Plugin = (H5Plugin) object;
-                register(h5Plugin);
-            }
-        } catch (IllegalAccessException e) {
-            H5Log.e(TAG, "exception", e);
-        } catch (InstantiationException e) {
-            H5Log.e(TAG, "exception", e);
-        }
-
-        return false;
-    }
-
     @Override
     public synchronized boolean register(H5Plugin plugin) {
         if (plugin == null) {

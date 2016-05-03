@@ -9,10 +9,11 @@ import com.xiaoying.h5api.api.H5PluginManager;
 import com.xiaoying.h5api.api.H5Scenario;
 import com.xiaoying.h5api.api.H5Session;
 import com.xiaoying.h5api.api.H5WebProvider;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5core.config.H5PluginConfigManager;
 import com.xiaoying.h5core.data.H5MemData;
 import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5core.plugin.H5SessionPlugin;
-import com.xiaoying.h5api.util.H5Log;
 
 import java.io.InputStream;
 import java.util.Iterator;
@@ -43,6 +44,10 @@ public class H5SessionImpl extends H5CoreTarget implements H5Session, H5WebProvi
     private void initPlugins() {
         H5PluginManager pluginManager = getPluginManager();
         pluginManager.register(new H5SessionPlugin(this));
+
+        H5Plugin localH5Plugin = H5PluginConfigManager.getInstance().createPlugin("session", pluginManager);
+        if (localH5Plugin != null)
+            pluginManager.register(localH5Plugin);
     }
 
     @Override

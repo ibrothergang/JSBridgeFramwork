@@ -4,8 +4,6 @@ import java.util.List;
 
 public interface H5PluginManager extends H5IntentTarget {
 
-    public boolean register(H5PluginConfig pluginConfig);
-
     public boolean register(H5Plugin plugin);
 
     public boolean register(List<H5Plugin> plugins);
