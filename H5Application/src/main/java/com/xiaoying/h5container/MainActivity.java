@@ -19,12 +19,14 @@ import android.widget.EditText;
 public class MainActivity extends Activity {
     private EditText page;
     private Button open;
+    private H5Service h5Service;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
+        h5Service = H5Container.getService();
         open = (Button) findViewById(R.id.open);
 
         page = (EditText) findViewById(R.id.startpage);
@@ -33,8 +35,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
                 String pages = TextUtils.isEmpty(page.getText().toString()) ?
-                        "http://www.baidu.com" : page.getText().toString();
-                H5Service h5Service = H5Container.getService();
+                        "http://119.29.187.147/McServer/index.html" : page.getText().toString();
                 if (h5Service != null) {
                     H5Context h5Context = new H5Context(getApplicationContext());
                     H5Bundle h5Bundle = new H5Bundle();

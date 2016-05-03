@@ -21,6 +21,8 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import android.content.Context;
+import android.content.Intent;
+import android.net.Uri;
 import android.text.TextUtils;
 import android.widget.Toast;
 
@@ -219,6 +221,12 @@ public class H5PagePlugin implements H5Plugin {
                 h5Page.sendIntent(H5FontBar.SHOW_FONT_BAR, null);
             } else if (H5Container.MENU_REFRESH.equals(tag)) {
                 h5Page.sendIntent(H5Plugin.H5_PAGE_RELOAD, null);
+            } else if (H5Container.MENU_OPEN_IN_BROWSER.equals(tag)) {
+                String url = h5Page.getUrl();
+                Intent openIntent = new Intent(Intent.ACTION_VIEW);
+                openIntent.setData(Uri.parse(url));
+                H5Environment.startActivity(h5Page.getContext(), openIntent);
+
             } else if (H5Container.MENU_COPY.equals(tag)) {
                 JSONObject data = new JSONObject();
                 try {

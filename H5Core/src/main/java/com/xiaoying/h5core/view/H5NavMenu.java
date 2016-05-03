@@ -42,6 +42,8 @@ public class H5NavMenu extends H5PopMenu {
         menuList.add(new MenuItem(resources.getString(R.string.menu_font),
                 H5Container.MENU_FONT, resources
                 .getDrawable(R.drawable.h5_nav_font), false));
+        menuList.add(new MenuItem(resources.getString(R.string.menu_open_in_browser),
+                H5Container.MENU_OPEN_IN_BROWSER, resources.getDrawable(R.drawable.h5_nav_browse_enable), false));
         menuList.add(new MenuItem(resources.getString(R.string.menu_copy),
                 H5Container.MENU_COPY, resources
                 .getDrawable(R.drawable.h5_nav_copy), false));

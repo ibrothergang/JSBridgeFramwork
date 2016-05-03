@@ -340,6 +340,13 @@ public class H5PageImpl extends H5CoreTarget implements H5Page {
                 String url = H5Utils.getString(startParams, key);
                 if (!TextUtils.isEmpty(url)) {
                     intentName = H5Plugin.H5_PAGE_LOAD_URL;
+                    Uri uri = H5UrlHelper.parseUrl(url);
+                    if (uri != null && TextUtils.isEmpty(uri.getScheme())) {
+                        url = "http://" + url;
+                    }
+                    if (!url.startsWith("http")) {
+                        url = "http://" + url;
+                    }
                     try {
                         param.put(H5Param.LONG_URL, url);
                         String publicId = H5Utils.getString(startParams,

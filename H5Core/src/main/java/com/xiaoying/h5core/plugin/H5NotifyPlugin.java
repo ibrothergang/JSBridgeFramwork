@@ -91,6 +91,13 @@ public class H5NotifyPlugin implements H5Plugin {
             }
         }, mDuration);
 
+        H5Utils.runOnMain(new Runnable() {
+            @Override
+            public void run() {
+
+            }
+        },mDuration);
+
         H5Log.d("H5JSFuncs", "toast show");
     }
 

@@ -37,6 +37,7 @@ public class H5Container {
     public static final String KEY_PAGE_UPDATED = "pageUpdated";
     public static final String MENU_FONT = "font";
     public static final String MENU_COPY = "copy";
+    public static final String MENU_OPEN_IN_BROWSER = "openInBrowser";
     public static final String MENU_REFRESH = "refresh";
     public static final String MENU_SHARE = "share";
     public static final String MENU_COMPLAIN = "complain";

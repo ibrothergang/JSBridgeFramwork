@@ -32,7 +32,6 @@
                 android:layout_marginLeft="6dp"
                 android:layout_toRightOf="@+id/tv_h5_title"
                 android:drawablePadding="6dp"
-                android:drawableRight="@drawable/h5_titlebar_sub"
                 android:gravity="center"
                 android:singleLine="true"
                 android:textColor="@color/white"
