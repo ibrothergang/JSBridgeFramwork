@@ -3,8 +3,6 @@ package com.xiaoying.h5api.util;
 import android.os.Looper;
 import android.text.TextUtils;
 
-import com.xiaoying.h5api.util.H5Log;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;

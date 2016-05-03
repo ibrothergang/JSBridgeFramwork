@@ -1,13 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.annotation.SuppressLint;
-import android.content.ContentValues;
-import android.content.Context;
-import android.database.Cursor;
-import android.net.Uri;
-import android.os.Build;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Plugin;
@@ -17,6 +9,14 @@ import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.annotation.SuppressLint;
+import android.content.ContentValues;
+import android.content.Context;
+import android.database.Cursor;
+import android.net.Uri;
+import android.os.Build;
+import android.text.TextUtils;
 
 import java.text.ParsePosition;
 import java.text.SimpleDateFormat;

@@ -1,5 +1,8 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
+import com.xiaoying.h5core.apwebview.APWebViewClient;
+import com.xiaoying.h5core.apwebview.APWebViewCtrl;
+
 import android.graphics.Bitmap;
 import android.net.http.SslError;
 import android.os.Message;
@@ -9,9 +12,6 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebResourceResponse;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
-import com.xiaoying.h5core.apwebview.APWebViewClient;
-import com.xiaoying.h5core.apwebview.APWebViewCtrl;
 
 class AndroidWebViewClient extends WebViewClient {
     private APWebViewCtrl mAPWebView;

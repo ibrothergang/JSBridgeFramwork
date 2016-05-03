@@ -1,10 +1,10 @@
 package com.xiaoying.h5core.core;
 
-import android.os.Bundle;
-
 import com.xiaoying.h5api.api.H5Param.ParamType;
-import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.env.H5Container;
+
+import android.os.Bundle;
 
 public class H5ParamImpl {
 

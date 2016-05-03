@@ -1,14 +1,14 @@
 package com.xiaoying.h5core.core;
 
-import android.net.Uri;
-import android.os.Bundle;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5Param;
 import com.xiaoying.h5api.api.H5Param.ParamType;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
+
+import android.net.Uri;
+import android.os.Bundle;
+import android.text.TextUtils;
 
 import java.util.LinkedList;
 import java.util.List;

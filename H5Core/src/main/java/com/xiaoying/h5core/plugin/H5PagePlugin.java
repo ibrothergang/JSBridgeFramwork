@@ -1,9 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.content.Context;
-import android.text.TextUtils;
-import android.widget.Toast;
-
 import com.xiaoying.h5api.api.H5Bridge;
 import com.xiaoying.h5api.api.H5CallBack;
 import com.xiaoying.h5api.api.H5Intent;
@@ -23,6 +19,10 @@ import com.xiaoying.h5core.web.H5WebView;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Context;
+import android.text.TextUtils;
+import android.widget.Toast;
 
 public class H5PagePlugin implements H5Plugin {
 

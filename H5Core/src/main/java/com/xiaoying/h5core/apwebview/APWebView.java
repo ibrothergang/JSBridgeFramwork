@@ -1,5 +1,9 @@
 package com.xiaoying.h5core.apwebview;
 
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.web.H5WebView;
+import com.xiaoying.h5core.web.H5WebViewRenderPolicy;
+
 import android.content.Context;
 import android.content.res.TypedArray;
 import android.graphics.Bitmap;
@@ -11,10 +15,6 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.webkit.ValueCallback;
 import android.widget.FrameLayout;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5core.web.H5WebView;
-import com.xiaoying.h5core.web.H5WebViewRenderPolicy;
 
 import java.util.Map;
 

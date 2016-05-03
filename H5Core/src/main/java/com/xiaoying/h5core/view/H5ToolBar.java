@@ -1,22 +1,22 @@
 package com.xiaoying.h5core.view;
 
-import android.annotation.SuppressLint;
-import android.content.Context;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.View.OnClickListener;
-import android.widget.ImageView;
-
-import com.xiaoying.h5core.R;
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.annotation.SuppressLint;
+import android.content.Context;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
 
 public class H5ToolBar implements H5Plugin, OnClickListener {
 

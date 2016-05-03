@@ -9,8 +9,6 @@ public class H5Proxy {
 
     /**
      * set listener to H5Proxy, listener cleared when null is set
-     *
-     * @param listener
      */
     public void setStateListenr(H5ProxyStateListener listener) {
         this.listener = listener;

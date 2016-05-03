@@ -1,15 +1,15 @@
 package com.xiaoying.h5core.download;
 
-import android.content.Context;
-import android.text.TextUtils;
-
-import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5api.util.NetworkUtil;
 import com.xiaoying.h5api.util.NetworkUtil.NetworkListener;
 import com.xiaoying.h5api.util.NetworkUtil.NetworkType;
+
+import android.content.Context;
+import android.text.TextUtils;
 
 import java.util.List;
 

@@ -3,8 +3,6 @@ package com.xiaoying.h5api.util;
 import android.net.Uri;
 import android.text.TextUtils;
 
-import com.xiaoying.h5api.util.H5Log;
-
 public class H5UrlHelper {
     public static final String TAG = "UrlHelper";
 

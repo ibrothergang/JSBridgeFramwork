@@ -1,15 +1,15 @@
 package com.xiaoying.h5core.core;
 
-import android.os.Bundle;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5WebProvider;
-import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5api.util.FileUtil;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
 import com.xiaoying.h5api.util.tar.TarEntry;
 import com.xiaoying.h5api.util.tar.TarInputStream;
+import com.xiaoying.h5core.env.H5Container;
+
+import android.os.Bundle;
+import android.text.TextUtils;
 
 import java.io.BufferedInputStream;
 import java.io.ByteArrayInputStream;

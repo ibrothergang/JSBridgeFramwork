@@ -1,10 +1,10 @@
 package com.xiaoying.h5core.download;
 
-import android.webkit.MimeTypeMap;
-
 import com.xiaoying.h5api.util.FileUtil;
 
 import org.apache.http.entity.AbstractHttpEntity;
+
+import android.webkit.MimeTypeMap;
 
 import java.io.DataOutputStream;
 import java.io.File;

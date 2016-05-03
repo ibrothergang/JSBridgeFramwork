@@ -1,13 +1,13 @@
 package com.xiaoying.h5core.refresh;
 
+import com.xiaoying.h5core.apwebview.APWebView;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.Scroller;
-
-import com.xiaoying.h5core.apwebview.APWebView;
 
 public class H5PullContainer extends FrameLayout implements OverScrollListener {
     public static final String TAG = "H5PullContainer";
@@ -40,9 +40,6 @@ public class H5PullContainer extends FrameLayout implements OverScrollListener {
 
     /**
      * get the real scrollY of the underlaying webview
-     *
-     * @param apWebView
-     * @return
      */
     private static int getScrollY(View apWebView) {
         APWebView tmpWebView = null;

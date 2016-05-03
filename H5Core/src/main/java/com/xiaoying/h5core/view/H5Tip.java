@@ -1,5 +1,7 @@
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5core.R;
+
 import android.content.Context;
 import android.os.Handler;
 import android.os.Looper;
@@ -13,8 +15,6 @@ import android.view.WindowManager.LayoutParams;
 import android.widget.Button;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
 
 public class H5Tip {
     static Handler handler = null;

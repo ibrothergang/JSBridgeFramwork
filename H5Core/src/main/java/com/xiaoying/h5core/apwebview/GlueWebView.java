@@ -20,8 +20,6 @@ public abstract class GlueWebView extends FrameLayout implements APWebViewCtrl {
 
     /**
      * to notify this glue web view has been added into parent layout/WebViewCtrl
-     *
-     * @param parent
      */
     public abstract void onCompositedToParent(APWebViewCtrl parent);
 

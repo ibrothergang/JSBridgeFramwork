@@ -1,10 +1,10 @@
 package com.xiaoying.h5core.download;
 
+import com.xiaoying.h5api.util.FileUtil;
+
 import android.content.Context;
 import android.os.Environment;
 import android.text.TextUtils;
-
-import com.xiaoying.h5api.util.FileUtil;
 
 import java.io.File;
 

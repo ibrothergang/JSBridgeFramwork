@@ -1,5 +1,24 @@
 package com.xiaoying.h5core.ui;
 
+import com.xiaoying.h5api.api.H5Page.H5PageHandler;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5api.util.KeyboardUtil;
+import com.xiaoying.h5api.util.KeyboardUtil.KeyboardListener;
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.core.H5PageImpl;
+import com.xiaoying.h5core.env.H5Container;
+import com.xiaoying.h5core.view.H5FontBar;
+import com.xiaoying.h5core.view.H5NavigationBar;
+import com.xiaoying.h5core.view.H5TitleBar;
+import com.xiaoying.h5core.view.H5ToolBar;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Intent;
@@ -13,25 +32,6 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.webkit.ValueCallback;
 import android.widget.RelativeLayout;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Page.H5PageHandler;
-import com.xiaoying.h5api.api.H5Param;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5core.core.H5PageImpl;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-import com.xiaoying.h5api.util.KeyboardUtil;
-import com.xiaoying.h5api.util.KeyboardUtil.KeyboardListener;
-import com.xiaoying.h5core.view.H5FontBar;
-import com.xiaoying.h5core.view.H5NavigationBar;
-import com.xiaoying.h5core.view.H5TitleBar;
-import com.xiaoying.h5core.view.H5ToolBar;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.File;
 import java.util.Set;

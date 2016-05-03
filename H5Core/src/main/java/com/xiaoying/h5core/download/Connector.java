@@ -1,10 +1,8 @@
 package com.xiaoying.h5core.download;
 
-import android.text.TextUtils;
-
-import com.xiaoying.h5core.download.ConnectInfo.HttpMethod;
 import com.xiaoying.h5api.util.FileUtil;
 import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5core.download.ConnectInfo.HttpMethod;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
@@ -18,6 +16,8 @@ import org.apache.http.client.methods.HttpRequestBase;
 import org.apache.http.conn.ClientConnectionManager;
 import org.apache.http.impl.client.DefaultHttpClient;
 import org.apache.http.util.CharArrayBuffer;
+
+import android.text.TextUtils;
 
 import java.io.InputStream;
 import java.io.InputStreamReader;

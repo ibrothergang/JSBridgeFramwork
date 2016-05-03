@@ -1,24 +1,24 @@
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.env.H5Container;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.content.res.Resources;
 import android.graphics.drawable.Drawable;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.PopupWindow;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5Page;
-import com.xiaoying.h5api.api.H5Param;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.util.List;
 

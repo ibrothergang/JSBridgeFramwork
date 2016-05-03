@@ -1,9 +1,9 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
 
-import android.webkit.DownloadListener;
-
 import com.xiaoying.h5core.apwebview.APDownloadListener;
+
+import android.webkit.DownloadListener;
 
 class AndroidDownloadListener implements DownloadListener {
 

@@ -1,29 +1,29 @@
 package com.xiaoying.h5core.ui;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5UrlHelper;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.core.H5PageImpl;
+import com.xiaoying.h5core.env.H5Container;
+import com.xiaoying.h5core.refresh.H5PullAdapter;
+import com.xiaoying.h5core.refresh.H5PullContainer;
+import com.xiaoying.h5core.refresh.H5PullHeader;
+import com.xiaoying.h5core.view.H5Progress;
+
+import org.json.JSONObject;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.text.TextUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5IntentFilter;
-import com.xiaoying.h5api.api.H5Page;
-import com.xiaoying.h5api.api.H5Param;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5core.core.H5PageImpl;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5core.refresh.H5PullAdapter;
-import com.xiaoying.h5core.refresh.H5PullContainer;
-import com.xiaoying.h5core.refresh.H5PullHeader;
-import com.xiaoying.h5api.util.H5UrlHelper;
-import com.xiaoying.h5api.util.H5Utils;
-import com.xiaoying.h5core.view.H5Progress;
-
-import org.json.JSONObject;
 
 public class H5WebContent implements H5Plugin {
 

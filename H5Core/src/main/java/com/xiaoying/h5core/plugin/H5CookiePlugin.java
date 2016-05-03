@@ -1,18 +1,18 @@
 package com.xiaoying.h5core.plugin;
 
-import android.text.TextUtils;
-import android.webkit.CookieManager;
-import android.webkit.CookieSyncManager;
-
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5api.util.H5CookieHelper;
+import com.xiaoying.h5api.util.H5Environment;
 import com.xiaoying.h5api.util.H5Log;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.text.TextUtils;
+import android.webkit.CookieManager;
+import android.webkit.CookieSyncManager;
 
 import java.util.regex.Pattern;
 

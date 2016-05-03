@@ -1,5 +1,15 @@
 package com.xiaoying.h5core.plugin;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+
+import org.json.JSONObject;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.Context;
@@ -11,16 +21,6 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.ProgressBar;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5IntentFilter;
-import com.xiaoying.h5api.api.H5Page;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-
-import org.json.JSONObject;
 
 public class H5LoadingPlugin implements H5Plugin {
 

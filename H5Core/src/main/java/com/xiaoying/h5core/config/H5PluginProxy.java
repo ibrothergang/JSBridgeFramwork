@@ -20,16 +20,6 @@ import java.util.Map;
  */
 public class H5PluginProxy implements H5Plugin {
 
-    class ProxyInfo {
-        public H5Plugin plugin;
-        public H5PluginConfig pluginInfo;
-        public boolean registered;
-
-        ProxyInfo(H5PluginProxy proxy) {
-
-        }
-    }
-
     public static final String TAG = "H5PluginProxy";
     private Map<String, ProxyInfo> proxyInfoMap;
     private H5PluginManager pluginManager;
@@ -127,5 +117,15 @@ public class H5PluginProxy implements H5Plugin {
 
     public void onRelease() {
         this.proxyInfoMap.clear();
+    }
+
+    class ProxyInfo {
+        public H5Plugin plugin;
+        public H5PluginConfig pluginInfo;
+        public boolean registered;
+
+        ProxyInfo(H5PluginProxy proxy) {
+
+        }
     }
 }

@@ -1,5 +1,17 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5core.apwebview.APDownloadListener;
+import com.xiaoying.h5core.apwebview.APHitTestResult;
+import com.xiaoying.h5core.apwebview.APWebBackForwardList;
+import com.xiaoying.h5core.apwebview.APWebChromeClient;
+import com.xiaoying.h5core.apwebview.APWebSettings;
+import com.xiaoying.h5core.apwebview.APWebViewClient;
+import com.xiaoying.h5core.apwebview.APWebViewCtrl;
+import com.xiaoying.h5core.apwebview.GlueWebView;
+import com.xiaoying.h5core.apwebview.Version;
+import com.xiaoying.h5core.apwebview.WebViewType;
+
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -12,18 +24,6 @@ import android.webkit.ValueCallback;
 import android.webkit.WebBackForwardList;
 import android.webkit.WebView;
 import android.widget.FrameLayout;
-
-import com.xiaoying.h5core.apwebview.APDownloadListener;
-import com.xiaoying.h5core.apwebview.APHitTestResult;
-import com.xiaoying.h5core.apwebview.APWebBackForwardList;
-import com.xiaoying.h5core.apwebview.APWebChromeClient;
-import com.xiaoying.h5core.apwebview.APWebSettings;
-import com.xiaoying.h5core.apwebview.APWebViewClient;
-import com.xiaoying.h5core.apwebview.APWebViewCtrl;
-import com.xiaoying.h5core.apwebview.GlueWebView;
-import com.xiaoying.h5core.apwebview.Version;
-import com.xiaoying.h5core.apwebview.WebViewType;
-import com.xiaoying.h5api.util.H5Log;
 
 import java.util.Map;
 

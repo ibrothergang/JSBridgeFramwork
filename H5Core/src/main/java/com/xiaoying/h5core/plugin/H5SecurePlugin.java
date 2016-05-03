@@ -1,7 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Plugin;
@@ -11,6 +9,8 @@ import com.xiaoying.h5api.util.RsaUtil;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.text.TextUtils;
 
 public class H5SecurePlugin implements H5Plugin {
 

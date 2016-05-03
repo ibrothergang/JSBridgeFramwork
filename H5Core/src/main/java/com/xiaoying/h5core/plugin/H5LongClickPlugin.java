@@ -1,5 +1,16 @@
 package com.xiaoying.h5core.plugin;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.apwebview.APHitTestResult;
+import com.xiaoying.h5core.core.H5PageImpl;
+import com.xiaoying.h5core.env.H5Container;
+
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
@@ -11,17 +22,6 @@ import android.view.View;
 import android.view.View.OnLongClickListener;
 import android.webkit.WebView.HitTestResult;
 import android.widget.Toast;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5IntentFilter;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5core.apwebview.APHitTestResult;
-import com.xiaoying.h5core.core.H5PageImpl;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
 
 public class H5LongClickPlugin implements H5Plugin, OnLongClickListener {
 

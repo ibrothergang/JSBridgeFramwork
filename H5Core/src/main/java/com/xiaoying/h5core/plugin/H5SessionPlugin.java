@@ -1,10 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.content.Intent;
-import android.net.Uri;
-import android.os.Bundle;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5Context;
 import com.xiaoying.h5api.api.H5CoreNode;
 import com.xiaoying.h5api.api.H5Data;
@@ -14,17 +9,22 @@ import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5api.api.H5Param;
 import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5api.api.H5Session;
-import com.xiaoying.h5core.core.H5ParamParser;
-import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5core.ui.H5Activity;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5UrlHelper;
 import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.core.H5ParamParser;
+import com.xiaoying.h5core.env.H5Container;
+import com.xiaoying.h5core.ui.H5Activity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Intent;
+import android.net.Uri;
+import android.os.Bundle;
+import android.text.TextUtils;
 
 import java.util.Iterator;
 import java.util.Set;

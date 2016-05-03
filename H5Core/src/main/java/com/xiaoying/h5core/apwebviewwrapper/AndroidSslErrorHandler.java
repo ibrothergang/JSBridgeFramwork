@@ -1,8 +1,8 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
-import android.webkit.SslErrorHandler;
-
 import com.xiaoying.h5core.apwebview.APSslErrorHandler;
+
+import android.webkit.SslErrorHandler;
 
 /**
  * Created by Administrator on 2014/12/9.

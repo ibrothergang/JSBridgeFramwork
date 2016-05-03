@@ -1,11 +1,5 @@
 package com.xiaoying.h5core.core;
 
-import android.app.Activity;
-import android.content.Context;
-import android.content.Intent;
-import android.os.Bundle;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5Bundle;
 import com.xiaoying.h5api.api.H5Context;
 import com.xiaoying.h5api.api.H5Listener;
@@ -28,6 +22,12 @@ import com.xiaoying.h5core.plugin.H5SecurePlugin;
 import com.xiaoying.h5core.plugin.H5ServicePlugin;
 import com.xiaoying.h5core.plugin.H5SystemPlugin;
 import com.xiaoying.h5core.ui.H5Activity;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.text.TextUtils;
 
 import java.util.HashMap;
 import java.util.Iterator;

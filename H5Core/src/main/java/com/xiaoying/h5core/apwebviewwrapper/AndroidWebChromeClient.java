@@ -1,5 +1,10 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
+import com.xiaoying.h5core.apwebview.APJsPromptResult;
+import com.xiaoying.h5core.apwebview.APJsResult;
+import com.xiaoying.h5core.apwebview.APWebChromeClient;
+import com.xiaoying.h5core.apwebview.APWebViewCtrl;
+
 import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Message;
@@ -11,11 +16,6 @@ import android.webkit.JsResult;
 import android.webkit.ValueCallback;
 import android.webkit.WebChromeClient;
 import android.webkit.WebView;
-
-import com.xiaoying.h5core.apwebview.APJsPromptResult;
-import com.xiaoying.h5core.apwebview.APJsResult;
-import com.xiaoying.h5core.apwebview.APWebChromeClient;
-import com.xiaoying.h5core.apwebview.APWebViewCtrl;
 
 /**
  * Created by Administrator on 2014/12/9.

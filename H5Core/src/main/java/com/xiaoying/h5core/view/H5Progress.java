@@ -1,11 +1,11 @@
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5api.util.H5Log;
+
 import android.content.Context;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.ProgressBar;
-
-import com.xiaoying.h5api.util.H5Log;
 
 import java.util.Timer;
 import java.util.TimerTask;

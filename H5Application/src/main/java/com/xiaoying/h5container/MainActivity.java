@@ -1,17 +1,17 @@
 package com.xiaoying.h5container;
 
+import com.xiaoying.h5api.api.H5Bundle;
+import com.xiaoying.h5api.api.H5Context;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Service;
+import com.xiaoying.h5core.env.H5Container;
+
 import android.app.Activity;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-
-import com.xiaoying.h5api.api.H5Bundle;
-import com.xiaoying.h5api.api.H5Context;
-import com.xiaoying.h5api.api.H5Param;
-import com.xiaoying.h5api.api.H5Service;
-import com.xiaoying.h5core.env.H5Container;
 
 /**
  * Created by android_mc on 16/4/29.

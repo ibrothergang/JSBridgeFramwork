@@ -1,12 +1,12 @@
 package com.xiaoying.h5core.download;
 
-import android.os.Parcel;
-import android.os.Parcelable;
-import android.text.TextUtils;
-
 import org.apache.http.HttpEntity;
 import org.apache.http.entity.StringEntity;
 import org.apache.http.util.EntityUtils;
+
+import android.os.Parcel;
+import android.os.Parcelable;
+import android.text.TextUtils;
 
 import java.util.HashMap;
 

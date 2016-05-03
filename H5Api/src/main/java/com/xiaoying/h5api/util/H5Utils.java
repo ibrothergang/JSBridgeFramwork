@@ -1,5 +1,9 @@
 package com.xiaoying.h5api.util;
 
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.pm.ApplicationInfo;
@@ -18,10 +22,6 @@ import android.text.TextUtils;
 import android.util.DisplayMetrics;
 import android.util.TypedValue;
 
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
-
 import java.io.InputStream;
 import java.math.BigDecimal;
 import java.util.Iterator;
@@ -36,10 +36,6 @@ public class H5Utils {
 
     /**
      * Get external application package info, return null if not exists
-     *
-     * @param context
-     * @param packageName
-     * @return
      */
     public static PackageInfo getPackageInfo(Context context, String packageName) {
         if (TextUtils.isEmpty(packageName)) {

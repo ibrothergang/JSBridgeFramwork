@@ -1,5 +1,20 @@
 package com.xiaoying.h5core.web;
 
+import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5api.util.NetworkUtil;
+import com.xiaoying.h5api.util.NetworkUtil.NetworkType;
+import com.xiaoying.h5core.apwebview.APWebBackForwardList;
+import com.xiaoying.h5core.apwebview.APWebChromeClient;
+import com.xiaoying.h5core.apwebview.APWebHistoryItem;
+import com.xiaoying.h5core.apwebview.APWebSettings;
+import com.xiaoying.h5core.apwebview.APWebView;
+import com.xiaoying.h5core.apwebview.APWebViewClient;
+import com.xiaoying.h5core.env.H5Container;
+import com.xiaoying.h5core.refresh.H5PullableView;
+import com.xiaoying.h5core.refresh.OverScrollListener;
+
 import android.annotation.SuppressLint;
 import android.annotation.TargetApi;
 import android.content.Context;
@@ -16,21 +31,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.webkit.WebSettings;
-
-import com.xiaoying.h5core.apwebview.APWebBackForwardList;
-import com.xiaoying.h5core.apwebview.APWebChromeClient;
-import com.xiaoying.h5core.apwebview.APWebHistoryItem;
-import com.xiaoying.h5core.apwebview.APWebSettings;
-import com.xiaoying.h5core.apwebview.APWebView;
-import com.xiaoying.h5core.apwebview.APWebViewClient;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5core.refresh.H5PullableView;
-import com.xiaoying.h5core.refresh.OverScrollListener;
-import com.xiaoying.h5api.util.FileUtil;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-import com.xiaoying.h5api.util.NetworkUtil;
-import com.xiaoying.h5api.util.NetworkUtil.NetworkType;
 
 import java.util.Map;
 

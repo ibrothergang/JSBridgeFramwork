@@ -1,5 +1,17 @@
 package com.xiaoying.h5core.plugin;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+
+import org.json.JSONArray;
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.content.Context;
 import android.text.TextUtils;
 import android.view.Gravity;
@@ -12,18 +24,6 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5IntentFilter;
-import com.xiaoying.h5api.api.H5Page;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-
-import org.json.JSONArray;
-import org.json.JSONException;
-import org.json.JSONObject;
 
 public class H5ActionSheetPlugin implements H5Plugin {
 

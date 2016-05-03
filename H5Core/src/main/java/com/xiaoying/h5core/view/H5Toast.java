@@ -4,6 +4,9 @@
 
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5core.R;
+
 import android.content.Context;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -11,9 +14,6 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.util.H5Environment;
 
 public class H5Toast {
 

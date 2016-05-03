@@ -1,11 +1,11 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
+import com.xiaoying.h5core.apwebview.APWebSettings;
+
 import android.annotation.TargetApi;
 import android.content.Context;
 import android.os.Build;
 import android.webkit.WebSettings;
-
-import com.xiaoying.h5core.apwebview.APWebSettings;
 
 final class AndroidWebSettings implements APWebSettings {
     private WebSettings webSettings;

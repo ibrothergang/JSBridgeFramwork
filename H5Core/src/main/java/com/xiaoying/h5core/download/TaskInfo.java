@@ -1,13 +1,13 @@
 package com.xiaoying.h5core.download;
 
-import android.content.Context;
-
-import com.xiaoying.h5core.download.Downloader.Status;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.download.Downloader.Status;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Context;
 
 public class TaskInfo implements TransferListener {
     public static final String TAG = "TaskImpl";

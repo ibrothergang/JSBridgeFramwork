@@ -1,5 +1,8 @@
 package com.xiaoying.h5core.refresh;
 
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5core.R;
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.util.AttributeSet;
@@ -7,9 +10,6 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.util.H5Environment;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

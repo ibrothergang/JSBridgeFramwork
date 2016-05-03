@@ -1,8 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.content.Context;
-import android.text.ClipboardManager;
-
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Plugin;
@@ -12,6 +9,9 @@ import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Context;
+import android.text.ClipboardManager;
 
 @SuppressWarnings("deprecation")
 public class H5ClipboardPlugin implements H5Plugin {

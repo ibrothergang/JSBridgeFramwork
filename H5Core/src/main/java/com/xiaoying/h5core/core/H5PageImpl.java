@@ -1,11 +1,5 @@
 package com.xiaoying.h5core.core;
 
-import android.app.Activity;
-import android.net.Uri;
-import android.os.Bundle;
-import android.text.TextUtils;
-import android.view.View;
-
 import com.xiaoying.h5api.api.H5Bridge;
 import com.xiaoying.h5api.api.H5Context;
 import com.xiaoying.h5api.api.H5Data;
@@ -41,6 +35,12 @@ import com.xiaoying.h5core.web.H5WebViewClient;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.app.Activity;
+import android.net.Uri;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
 
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;

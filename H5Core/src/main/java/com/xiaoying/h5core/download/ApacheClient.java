@@ -1,9 +1,9 @@
 package com.xiaoying.h5core.download;
 
-import android.os.Looper;
-
-import com.xiaoying.h5core.download.ConnectInfo.HttpMethod;
 import com.xiaoying.h5api.util.FileUtil;
+import com.xiaoying.h5core.download.ConnectInfo.HttpMethod;
+
+import android.os.Looper;
 
 public class ApacheClient implements Client {
     private Connector connector;

@@ -1,19 +1,19 @@
 package com.xiaoying.h5core.plugin;
 
-import android.text.TextUtils;
-import android.widget.Toast;
-
-import com.xiaoying.h5core.R;
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
 import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5api.api.H5Plugin;
 import com.xiaoying.h5api.util.H5Log;
 import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
 import com.xiaoying.h5core.view.H5Toast;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.text.TextUtils;
+import android.widget.Toast;
 
 import java.util.Timer;
 import java.util.TimerTask;

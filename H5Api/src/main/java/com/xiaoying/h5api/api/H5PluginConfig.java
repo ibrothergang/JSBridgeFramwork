@@ -1,8 +1,8 @@
 package com.xiaoying.h5api.api;
 
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.util.H5Log;
+
+import android.text.TextUtils;
 
 import java.util.ArrayList;
 import java.util.Arrays;

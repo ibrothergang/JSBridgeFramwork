@@ -1,5 +1,19 @@
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5api.api.H5Intent;
+import com.xiaoying.h5api.api.H5IntentFilter;
+import com.xiaoying.h5api.api.H5Page;
+import com.xiaoying.h5api.api.H5Param;
+import com.xiaoying.h5api.api.H5Plugin;
+import com.xiaoying.h5api.util.H5Environment;
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+import com.xiaoying.h5core.env.H5Container;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.text.TextUtils;
@@ -10,20 +24,6 @@ import android.view.ViewGroup;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.api.H5Intent;
-import com.xiaoying.h5api.api.H5IntentFilter;
-import com.xiaoying.h5api.api.H5Page;
-import com.xiaoying.h5api.api.H5Param;
-import com.xiaoying.h5api.api.H5Plugin;
-import com.xiaoying.h5core.env.H5Container;
-import com.xiaoying.h5api.util.H5Environment;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Utils;
-
-import org.json.JSONException;
-import org.json.JSONObject;
 
 import java.io.ByteArrayOutputStream;
 import java.io.InputStream;

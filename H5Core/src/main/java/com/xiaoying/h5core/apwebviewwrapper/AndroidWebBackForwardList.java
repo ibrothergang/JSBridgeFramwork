@@ -1,10 +1,10 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
 
-import android.webkit.WebBackForwardList;
-
 import com.xiaoying.h5core.apwebview.APWebBackForwardList;
 import com.xiaoying.h5core.apwebview.APWebHistoryItem;
+
+import android.webkit.WebBackForwardList;
 
 /**
  * Created by Administrator on 2014/12/9.

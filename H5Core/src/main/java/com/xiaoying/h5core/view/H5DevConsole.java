@@ -1,5 +1,10 @@
 package com.xiaoying.h5core.view;
 
+import com.xiaoying.h5api.util.H5Log;
+import com.xiaoying.h5api.util.H5Log.LogListener;
+import com.xiaoying.h5api.util.H5Utils;
+import com.xiaoying.h5core.R;
+
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
@@ -13,11 +18,6 @@ import android.widget.Button;
 import android.widget.PopupWindow;
 import android.widget.ScrollView;
 import android.widget.TextView;
-
-import com.xiaoying.h5core.R;
-import com.xiaoying.h5api.util.H5Log;
-import com.xiaoying.h5api.util.H5Log.LogListener;
-import com.xiaoying.h5api.util.H5Utils;
 
 public class H5DevConsole implements OnClickListener, LogListener {
     public static final String TAG = "H5DevConsole";

@@ -1,7 +1,5 @@
 package com.xiaoying.h5core.core;
 
-import android.os.Bundle;
-
 import com.xiaoying.h5api.api.H5Listener;
 import com.xiaoying.h5api.api.H5Page;
 import com.xiaoying.h5api.api.H5Plugin;
@@ -14,6 +12,8 @@ import com.xiaoying.h5core.config.H5PluginConfigManager;
 import com.xiaoying.h5core.data.H5MemData;
 import com.xiaoying.h5core.env.H5Container;
 import com.xiaoying.h5core.plugin.H5SessionPlugin;
+
+import android.os.Bundle;
 
 import java.io.InputStream;
 import java.util.Iterator;

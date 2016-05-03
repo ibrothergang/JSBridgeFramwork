@@ -2,15 +2,17 @@
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Disabled -->
-    <item android:drawable="@drawable/btn_disable_bg_darkbg" android:state_enabled="false" />
+    <item android:drawable="@drawable/btn_disable_bg_darkbg" android:state_enabled="false"/>
 
     <!-- Pressed -->
-    <item android:drawable="@drawable/btn_dialog_bg_press" android:state_enabled="true" android:state_pressed="true" />
+    <item android:drawable="@drawable/btn_dialog_bg_press" android:state_enabled="true" android:state_pressed="true"/>
 
     <!-- Focused states -->
-    <item android:drawable="@drawable/btn_dialog_bg" android:state_enabled="true" android:state_focused="true" android:state_pressed="false" />
+    <item android:drawable="@drawable/btn_dialog_bg" android:state_enabled="true" android:state_focused="true"
+          android:state_pressed="false"/>
 
     <!-- Non focused states -->
-    <item android:drawable="@drawable/btn_dialog_bg" android:state_enabled="true" android:state_focused="false" android:state_pressed="false" />
+    <item android:drawable="@drawable/btn_dialog_bg" android:state_enabled="true" android:state_focused="false"
+          android:state_pressed="false"/>
 
 </selector>

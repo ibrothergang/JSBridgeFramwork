@@ -1,11 +1,5 @@
 package com.xiaoying.h5core.plugin;
 
-import android.content.Context;
-import android.content.Intent;
-import android.content.pm.PackageInfo;
-import android.net.Uri;
-import android.text.TextUtils;
-
 import com.xiaoying.h5api.api.H5CoreNode;
 import com.xiaoying.h5api.api.H5Intent;
 import com.xiaoying.h5api.api.H5IntentFilter;
@@ -19,6 +13,12 @@ import com.xiaoying.h5api.util.H5Utils;
 
 import org.json.JSONException;
 import org.json.JSONObject;
+
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageInfo;
+import android.net.Uri;
+import android.text.TextUtils;
 
 public class H5SystemPlugin implements H5Plugin {
 

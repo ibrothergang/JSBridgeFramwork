@@ -1,9 +1,9 @@
 package com.xiaoying.h5core.apwebviewwrapper;
 
 
-import android.webkit.HttpAuthHandler;
-
 import com.xiaoying.h5core.apwebview.APHttpAuthHandler;
+
+import android.webkit.HttpAuthHandler;
 
 /**
  * Created by Administrator on 2014/12/9.
