@@ -168,5 +168,6 @@ public class H5ActionSheetPlugin implements H5Plugin {
         popupWindow.setTouchable(true);
         popupWindow.setOutsideTouchable(true);
         popupWindow.showAtLocation(contentView, Gravity.BOTTOM, 0, 0);
+
     }
 }

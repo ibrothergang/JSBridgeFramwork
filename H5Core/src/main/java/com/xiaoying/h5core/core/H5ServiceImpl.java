@@ -58,7 +58,6 @@ public class H5ServiceImpl extends H5CoreTarget implements H5Service {
         return "h5session" + currentSessionId;
     }
 
-
     @Override
     public void addPluginConfig(H5PluginConfig paramH5PluginConfig) {
         H5PluginConfigManager.getInstance().addConfig(paramH5PluginConfig);
